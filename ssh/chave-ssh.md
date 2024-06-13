@@ -23,3 +23,9 @@ drwxr-x--- 7 rfahham rfahham 4096 Jun 13 16:39 ..
 cat /home/rfahham/.ssh/id_rsa.pub
 ```
 
+## Adicionando informações para o git
+
+```bash
+git config --global user.email "rfahham@hotmail.com"
+git config --global user.name "Ricardo Fahham"
+```
