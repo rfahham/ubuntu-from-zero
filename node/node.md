@@ -1,6 +1,6 @@
-# Node
+# Node e NPM
 
-Instalação
+## Instalação
 
 ```bash
 sudo apt update && sudo apt install -y nodejs
@@ -13,7 +13,15 @@ nodejs -v
     v12.22.9
 ```
 
+## Instalação
+
 ```bash
 sudo apt install -y npm
 ```
 
+## Saber a versão
+
+```bash
+npm --version
+10.7.0
+```
