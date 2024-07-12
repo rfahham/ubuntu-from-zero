@@ -1,19 +1,29 @@
 # ubuntu-fron-zero
 Instalação de programas no ubuntu
 
-1 - Configurando chaves ssh
+1 - [Oh My Zsh](/zsh/instalando.md)
 
-2 - Oh My Zsh
+2 - [Configurando chaves ssh](/ssh/chave-ssh.md)
 
-3 - Docker
+3 - Visual Studio Code
 
-4 - Minikube
+4 - Docker
 
-5 - GO
+5 - Kubernetes
+    - [tools](/k8s)
+    - [Minikube](/minikube/minikube.md)
+    - k3d
+    - 
 
-6 - Terraform
+6 - Programação
+    - Python
+    - [GO](/go/go.md)
 
-7 - Node & NPM
+7 - IAC
+    - Ansible
+    - [Terraform](/terraform/terraform.md)
 
-8 - UNZIP
+8 - Node & NPM
+
+9 - UNZIP
 
