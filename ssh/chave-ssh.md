@@ -1,6 +1,4 @@
-# Chave SSH
-
-## Criando o par de chave
+# Criando o par de chave SSH
 
 ```bash
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -9,7 +7,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ## Listando as chaves
 
 ```bash
-ls -la /home/rfahham/.ssh/
+ls -la ~/.ssh/
 total 24
 drwx------ 2 rfahham rfahham 4096 Jun 13 16:39 .
 drwxr-x--- 7 rfahham rfahham 4096 Jun 13 16:39 ..
@@ -20,7 +18,7 @@ drwxr-x--- 7 rfahham rfahham 4096 Jun 13 16:39 ..
 ## Copiando a chave para adicionar no Github/gitlab
 
 ```bash
-cat /home/rfahham/.ssh/id_rsa.pub
+cat /.ssh/id_rsa.pub
 ```
 
 ## Adicionando informações para o git
