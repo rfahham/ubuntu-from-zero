@@ -1,5 +1,15 @@
 Instalar o jq
 
 ```bash
-apt install jq
+sudo apt -y install jq
+```
+
+Exemplo:
+
+```bash
+echo '{"foo": 0}' | jq .
+
+{
+  "foo": 0
+}
 ```
