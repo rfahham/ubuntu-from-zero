@@ -36,3 +36,5 @@
 8 - [Node & NPM](./node/node.md)
 
 9 - [UNZIP](./unzip/unzip.md)
+
+10 - setup.sh(./setup.md)
