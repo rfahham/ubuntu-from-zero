@@ -8,5 +8,17 @@
 
 > O nome Python teve a sua origem no grupo humorístico britânico Monty Python,criador do programa Monty Python's Flying Circus, embora muitas pessoas façam associação com o réptil do mesmo nome (em português, píton ou pitão).
 
+No Ubuntu o python já vem instalado
+
+```bash
+python3 --version
+Python 3.10.12
+```
+
+## PIP
+
+```bash
+sudo apt install python3-pip
+```
 
 [Download](https://www.python.org/downloads/)
