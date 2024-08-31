@@ -2,8 +2,8 @@ echo "---------------------"
 echo " Instalando...       "
 echo "---------------------"
 
-sudo apt update
-sudo apt upgrade
+sudo apt update -y
+sudo apt upgrade -y
 sudo apt install wget
 sudo apt install git
 sudo apt install -y jq
@@ -57,7 +57,7 @@ echo "-----------------------"
 echo " Instalando OH-MY-ZSH  "
 echo "-----------------------"
 
-sudo apt install zsh
+sudo apt install -y zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"  
 
 echo "-----------------------"
