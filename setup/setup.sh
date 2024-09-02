@@ -1,4 +1,10 @@
 echo "---------------------"
+echo "   Versão do Linux   "
+echo "---------------------"
+
+cat /etc/os-release
+
+echo "---------------------"
 echo " Instalando...       "
 echo "---------------------"
 
